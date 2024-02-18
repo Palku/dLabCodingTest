@@ -33,3 +33,5 @@ Add xsd validation support for the xml output.
 # How to run the program.
 Just compile and set the CLI as startup project. It will look for any .txt files residing in the bin folder.
 Then pick which one you want to parse and it will both use the Console Output & Xml Output(will create a [filename.xml]) 
+
+# Total time spent is currently about 6-8 hours.
