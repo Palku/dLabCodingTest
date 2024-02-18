@@ -24,6 +24,6 @@ public class NodeProcessor
         await output.ProcessNodeAsync(node);
 
 
-    private async Task PreProcessOutputAsync(IOutput output) => await output.PreProcess();
-    private async Task PostProcessOutputAsync(IOutput output) => await output.PostProcess();
+    private Task PreProcessOutputAsync(IOutput output) => output.PreProcess();
+    private Task PostProcessOutputAsync(IOutput output) => output.PostProcess();
 }

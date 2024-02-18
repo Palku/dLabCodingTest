@@ -38,7 +38,7 @@ public class XmlOutput(string filename) : IOutput
                 await _xmlWriter.WriteEndElementAsync();
                 break;
             case NodeType.ValueNode:
-                await _xmlWriter.WriteElementStringAsync(null, node.NameFullyTrimmedLowerCase(), null, node.Value);
+                await _xmlWriter.WriteElementStringAsync(null, node.NameFullyTrimmedLowerCase(), null, node.Value ?? string.Empty);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
