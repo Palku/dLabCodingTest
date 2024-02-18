@@ -30,6 +30,8 @@ The things mentioned above, but also Input validation rules.
 For example only the "P" tag should be allowed to be a root node. 
 Add xsd validation support for the xml output.
 
+One could argue that it lacks comments, and yes it probably does.
+
 # How to run the program.
 Just compile and set the CLI as startup project. It will look for any .txt files residing in the bin folder.
 Then pick which one you want to parse and it will both use the Console Output & Xml Output(will create a [filename.xml]) 
