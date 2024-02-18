@@ -41,4 +41,10 @@ Then pick which one you want to parse and it will both use the Console Output & 
 # How I took on the task.
 I did this as I would with any other coding task, first I tried to come up with a solution.
 In this case I wanted to do new things so used some parts I normally dont use. Like newer C# features and AutoFac for my IOC needs.
+
+Then I start coding away and try to "fail fast" then iterative doing refactoring. 
 And as I normally do I used Chat GPT here as well for refactoring suggestions and cumbersome code generating like unit-tests. 
+
+Im not a fan of writing unit tests before the actual code as it has a tend to change quite much during my brute forcing. 
+
+When I have a somewhat working part, then I start do the unit tests.
