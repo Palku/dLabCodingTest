@@ -22,7 +22,8 @@ Think I got this quite well. Didn't do 100% code coverage but the examples are t
 Just create a RowParser following the used pattern, this is then automatically injected with an ioc based factory pattern.
 
 # What I'm not so happy about
-The way of closing dangling/open nodes isn't the most readable in the code. It's easy to maintain though.
+The way of closing dangling/open nodes isn't the most readable in the code. 
+It's easy to maintain though when you do know how it works.
 Noticed that the example XML didn't have the same order for the tags as the custom format. Will see if I fix this in the output or let it slide.
 
 # Improvements that could be made
@@ -35,6 +36,8 @@ One could argue that it lacks comments, and yes it probably does.
 # How to run the program.
 Just compile and set the CLI as startup project. It will look for any .txt files residing in the bin folder.
 Then pick which one you want to parse and it will both use the Console Output & Xml Output(will create a [filename.xml]) 
+Two releases also exist, one framework dependent but OS independent. 
+And one self-contained for Windows which is untested from my side.
 
 # Total time spent is currently about 6-8 hours.
 
