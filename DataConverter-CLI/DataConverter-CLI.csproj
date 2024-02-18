@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>DataConverter_CLI</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CustomPeopleInput\CustomPeopleInput.csproj" />
+      <ProjectReference Include="..\DataConverter\DataConverter.csproj" />
+      <ProjectReference Include="..\RawConsoleOutput\RawConsoleOutput.csproj" />
+      <ProjectReference Include="..\XmlOutput\XmlOutput.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="TestCase1.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
