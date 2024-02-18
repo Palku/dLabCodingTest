@@ -37,3 +37,8 @@ Just compile and set the CLI as startup project. It will look for any .txt files
 Then pick which one you want to parse and it will both use the Console Output & Xml Output(will create a [filename.xml]) 
 
 # Total time spent is currently about 6-8 hours.
+
+# How I took on the task.
+I did this as I would with any other coding task, first I tried to come up with a solution.
+In this case I wanted to do new things so used some parts I normally dont use. Like newer C# features and AutoFac for my IOC needs.
+And as I normally do I used Chat GPT here as well for refactoring suggestions and cumbersome code generating like unit-tests. 
