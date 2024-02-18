@@ -31,6 +31,9 @@ The things mentioned above, but also Input validation rules.
 For example only the "P" tag should be allowed to be a root node. 
 Add xsd validation support for the xml output.
 
+Decoupling the input stream from the output stream with a buffer in between.
+Multi-threading support
+
 One could argue that it lacks comments, and yes it probably does.
 
 # How to run the program.
